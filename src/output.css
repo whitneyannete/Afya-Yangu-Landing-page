@@ -618,6 +618,10 @@ video {
   height: 100%;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -712,12 +716,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-7 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -781,6 +779,11 @@ video {
   background-color: rgb(2 112 189 / var(--tw-bg-opacity));
 }
 
+.bg-afyablue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 214 227 / var(--tw-bg-opacity));
+}
+
 .bg-primary-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 237 228 / var(--tw-bg-opacity));
@@ -791,17 +794,8 @@ video {
   background-color: rgb(246 244 236 / var(--tw-bg-opacity));
 }
 
-.bg-afyablue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(176 214 227 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'\.\/Assets\/center-bg\.png\'\)\] {
   background-image: url('./Assets/center-bg.png');
-}
-
-.bg-\[url\(\'\.\/Assets\/img-2\.png\'\)\] {
-  background-image: url('./Assets/img-2.png');
 }
 
 .bg-contain {
@@ -899,16 +893,16 @@ video {
   padding-top: 4rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-2xl {
@@ -934,6 +928,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1058,8 +1057,20 @@ video {
     margin-top: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-11 {
+    height: 2.75rem;
   }
 
   .md\:max-h-\[444px\] {
@@ -1146,6 +1157,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1163,6 +1179,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-12 {
+    height: 3rem;
   }
 
   .lg\:w-36 {
